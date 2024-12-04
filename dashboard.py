@@ -230,3 +230,9 @@ st.header("6. Visualization 6 Title")
 st.write("Description for the sixth visualization.")
 st.plotly_chart(px.line(), use_container_width=True)  # Placeholder
 
+
+# In[22]:
+
+
+jupyter nbconvert --to script dashboard.ipynb
+
