@@ -25,7 +25,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
 import streamlit as st
-get_ipython().run_line_magic('matplotlib', 'inline')
 import seaborn as sns
 sns.set(color_codes=True)
 import chart_studio.plotly as py
